@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#mis-datos">Mis datos</a></li>
+                <li><a href="#referencias">Referencias</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+           <button id="toggleMode">🌙</button>
+        </nav>
+    </header>
+
+    <!-- Sección Inicio -->
+    <section id="inicio" class="section">
+        <div class="intro">
+            <h1>Franco Linceklinger</h1>
+            <p>Estudiante</p>
+            <p>¡Bienvenido a mi Portfolio!</p>
+        </div>
+        <img src="img/imagen2.jpg" class="imgp" alt="No se carga la imagen">
+    </section>
+    <!-- Sección Sobre mí -->
+    <section id="sobre-mi" class="section">
+        <h2>Sobre mí</h2>
+        <p class="letras">Estudiante de LCC (Licenciatura en ciencias de la computacion) y apasionado por la programación.
+            Realice una pasantia en una empresa de desarrollo web donde pude aprender mucho sobre php y bases de datos.
+            Me gusta aprender nuevas tecnologías y lenguajes.
+            Tengo conocimientos muy basico en HTML, CSS, JavaScript y estoy empezando a explorar Python.
+            Mi objetivo es seguir creciendo como desarrollador y trabajar en proyectos que tengan un impacto real.
+            En mi tiempo libre disfruto jugar básquet y videojuegos, y siempre estoy buscando nuevos desafíos.</p>
+        <img src="img/imagen1.jpg" class="perfil" alt="no se carga la imagen de perfil">
+    </section>
+
+   <!-- Sección Proyectos -->
+<section id="proyectos" class="section">
+    <h2>Proyectos</h2>
+
+    <div class="proyecto">
+        <h3>Proyecto 1</h3>
+        <video width="640" height="360" controls>
+            <source src="video/videoProyecto.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video>
+        <p>Proyecto realizado en Programación Orientada a Objetos</p>
+
+        <!-- Contenido extra que se mostrará al hacer clic -->
+        <div class="extra-content" style="display: none;">
+            <p>Este proyecto fue desarrollado utilizando Python y POO. Se implementaron distintas clases para manejar la lógica de manera modular y eficiente. Además, se realizaron pruebas unitarias para garantizar el correcto funcionamiento de cada módulo.</p>
+        </div>
+        <button class="btn-expand">Mostrar más</button>
+    </div>
+
+    <div class="proyecto">
+        <h3>Proyecto 2</h3>
+        <img src="img/pasantias.jpg" class="perfil" alt="no se carga la imagen">
+        <p>Pasantías en la empresa de programación web</p>
+
+        <!-- Contenido extra -->
+        <div class="extra-content" style="display: none;">
+            <p>Durante esta pasantía trabajé en un proyecto real de desarrollo web usando PHP y bases de datos MySQL. Aprendí a manejar formularios, autenticación de usuarios y mejorar la experiencia de usuario en la plataforma.</p>
+        </div>
+        <button class="btn-expand">Mostrar más</button>
+    </div>
+</section>
+
+    <!-- Sección Contacto -->
+<section id="mis-datos" class="section">
+    <h2>Mis datos</h2>
+
+    <div class="redes">
+        <img src="img/ig.jpg" class="instagram" alt="Instagram">
+        <span>Instagram: <a href="https://www.instagram.com/frann_lince/">frann_lince</a></span>
+    </div>
+
+    <h3>Mis datos:</h3>
+    <div class="form-item">
+        <label>Nombre:</label>
+        <span>Franco Linceklinger</span>
+    </div>
+    <div class="form-item">
+        <label>Email:</label>
+        <a href="https://mail.google.com/mail/u/0/?hl=es-419#inbox">linceklingerfranco@gmail.com</a>
+    </div>
+    <div class="form-item">
+        <label>Teléfono:</label>
+        <span>2645820940</span>
+    </div>
+</section>
+
+    <!-- Sección Referencias -->
+    <section id="referencias" class="section">
+        <h2>lenguajes</h2>
+        <div class="referencia">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python (en progreso)</li>
+                <li>PHP</li>
+            </ul>
+        </div>
+        <h2>Referencias</h2>
+        <div class="referencia">
+            <ul>
+                <li>Francisco laria:</li>
+                <p>Un muy buen programador que entiende de backend y fronend con buenas practicas</p>
+                <li>Juan Cruz:</li>
+                <p>🔹 <strong>Perfil como programador:</strong><br>
+                        Sos alguien que encara los proyectos con mucha dedicación y sin miedo a probar. 
+                        Te gusta entender la lógica de fondo de lo que hacés (no solo copiar código) y buscás mantener un estilo claro y ordenado.
+                        </p>
+
+                        <p>🔹 <strong>Fortalezas:</strong><br>
+                        Tenés una base sólida en estructuras de datos y Programación Orientada a Objetos.<br><br>
+                        Te gusta aplicar buenas prácticas (por ejemplo, mantener todo encapsulado y seguir reglas estrictas en Python).<br><br>
+                        Sos curioso: explorás desde el desarrollo web (HTML, CSS, JS, Flask) hasta lógica matemática y problemas complejos.<br><br>
+                        No te quedás solo con la teoría, querés ver cómo funciona en la práctica (como con tus proyectos en Python o tu portfolio en HTML/CSS).
+                        </p>
+
+                        <p>🔹 <strong>Actitud:</strong><br>
+                        Se nota que sos constante, paciente y detallista. 
+                        Tenés la mentalidad de un programador que va a crecer mucho porque combinás disciplina con ganas de aprender.
+                        </p>
+
+            </ul>
+    </section>
+
+    <section id="clima" class="section">
+    <h2>Consulta el clima</h2>
+
+    <div class="clima-container">
+        <input type="text" id="ciudad" placeholder="Ingresa una ciudad...">
+        <button id="buscarClima">Buscar</button>
+    </div>
+
+    <div id="resultadoClima" style="margin-top: 20px;">
+        <p id="ubicacion">Ubicación: ...</p>
+        <img id="icono" src="" alt="">
+        <p id="temperatura">Temperatura: ...</p>
+        <p id="descripcion">Descripción: ...</p>
+        <p id="humedad">Humedad: ...</p>
+    </div>
+    </section>
+
+    <section id="contacto" class="section">
+    <h2>Contacto</h2>
+        <div>
+            <form method="GET">
+                <div class="form-item">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-item">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="_replyto" required>
+                </div>
+                <div class="form-item">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+        </div>
+    </section>
+    <!-- Botón Volver arriba -->
+    <button id="btnTop">↑</button>
+    <script src="script.js"></script>
+</body>
+</html>
